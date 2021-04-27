@@ -1,0 +1,29 @@
+[debug] [2021-04-27T22:27:47.229Z] ----------------------------------------------------------------------
+[debug] [2021-04-27T22:27:47.237Z] Command:       D:\Installan\Node\node.exe C:\Users\WINDOWS 10\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-04-27T22:27:47.238Z] CLI Version:   9.10.0
+[debug] [2021-04-27T22:27:47.238Z] Platform:      win32
+[debug] [2021-04-27T22:27:47.239Z] Node Version:  v14.14.0
+[debug] [2021-04-27T22:27:47.242Z] Time:          Wed Apr 28 2021 05:27:47 GMT+0700 (Indochina Time)
+[debug] [2021-04-27T22:27:47.243Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-27T22:27:47.279Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-27T22:27:47.280Z] > authorizing via signed-in user (estisari24@gmail.com)
+[debug] [2021-04-27T22:27:47.281Z] [iam] checking project week11-pbf for permissions ["firebase.projects.get"]
+[debug] [2021-04-27T22:27:47.288Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/week11-pbf:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-04-27T22:27:48.685Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 27 Apr 2021 22:27:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=939","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-27T22:27:48.694Z] > refreshing access token with scopes: []
+[debug] [2021-04-27T22:27:48.695Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-27T22:27:49.003Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 27 Apr 2021 22:27:47 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-27T22:27:49.024Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/week11-pbf [none]
+[debug] [2021-04-27T22:27:49.526Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/week11-pbf 200
+[debug] [2021-04-27T22:27:49.528Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/week11-pbf {"projectId":"week11-pbf","projectNumber":"319112603251","displayName":"Week11-pbf","name":"projects/week11-pbf","resources":{"hostingSite":"week11-pbf","realtimeDatabaseInstance":"week11-pbf-default-rtdb","storageBucket":"week11-pbf.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'D:\KULIAH\SEMESTER 6\PEM. BER. FRAMEWORK\KODE\React\firebase-login'...
+[info] 
+[debug] [2021-04-27T22:27:49.539Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/week11-pbf/webApps/-/config [none]
+[debug] [2021-04-27T22:27:50.814Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/week11-pbf/webApps/-/config 200
+[debug] [2021-04-27T22:27:50.814Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/week11-pbf/webApps/-/config {"projectId":"week11-pbf","appId":"1:319112603251:web:cf0fd13ee0c0c4c0d1ac06","databaseURL":"https://week11-pbf-default-rtdb.firebaseio.com","storageBucket":"week11-pbf.appspot.com","locationId":"us-central","apiKey":"AIzaSyCdMt7nr-TlGmg5FOn6eIyn8LdYss72c84","authDomain":"week11-pbf.firebaseapp.com","messagingSenderId":"319112603251","measurementId":"G-C30JC5YD8V"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
